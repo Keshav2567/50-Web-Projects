@@ -1,7 +1,7 @@
 # Description
 This is a purely project-based repository. It is geared toward beginners, but intermediate developers can also enjoy creating new things. This repository includes 50 mini projects in HTML, CSS & JavaScript that relate to the DOM (Document Object Model). Here is a list of what will be added in this repository:
 
-## Projects
+# Projects
 1. Expanding Cards
 2. Progress Steps
 3. Rotating Navigation Animation
@@ -56,7 +56,7 @@ This is a purely project-based repository. It is geared toward beginners, but in
 
 **_*More Projects will be added soon_**
 
-## Credits
+# Credits
 I do not hold any credits for these projects.
 Every project uploaded here in this repository is inspired from the Udemy Course: **[50 Projects In 50 Days - HTML, CSS & JavaScript](https://www.udemy.com/course/50-projects-50-days/)** _by Brad Traversy_
 
