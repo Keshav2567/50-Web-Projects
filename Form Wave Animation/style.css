@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	font-family: 'Mulish', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: steelblue;
+}
+
+.container {
+	background-color: rgba(0, 0, 0, .25);
+	padding: 15px;
+	width: 300px;
+	border-radius: 10px;
+}
+
+.container h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.form-control {
+	padding: 20px 0;
+	position: relative;
+}
+
+.form-control input {
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #fff;
+	width: 100%;
+	padding: 5px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.form-control label {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	color: #fff;
+	padding-left: 0px;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+	border-bottom-color: lightblue;
+}
+
+.form-control input:focus + label,
+.form-control input:valid + label {
+	color: lightblue;
+}
+
+.form-control label span {
+	display: inline-block;
+	transition: .4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	font-size: 18px;
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+	transform: translateY(-20px);
+}
+
+.btn {
+	width: 100%;
+	padding: 10px 0;
+	border: none;
+	background-color: lightblue;
+	margin: 15px 0;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.btn:active {
+	transform: scale(.98);
+}
+
+.text {
+	margin-top: 10px;
+	color: #fff;
+}
+
+.text a {
+	cursor: pointer;
+	color: lightblue;
+}
