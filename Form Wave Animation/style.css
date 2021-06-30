@@ -38,6 +38,7 @@ body {
 	width: 100%;
 	padding: 5px;
 	color: #fff;
+	font-size: 18px;
 	cursor: pointer;
 }
 
@@ -68,6 +69,7 @@ body {
 .form-control input:focus + label span,
 .form-control input:valid + label span {
 	transform: translateY(-20px);
+	font-size: 14px;
 }
 
 .btn {
