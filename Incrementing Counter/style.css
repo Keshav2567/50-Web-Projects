@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu Mono', serif;
+}
+
+body {
+	height: 100vh;
+	background-color: #8B58F6;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.counter-container {
+	text-align: center;
+	margin: 30px 50px;
+}
+
+.counter-container .counter {
+	font-size: 60px;
+}
